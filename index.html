@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Leader Board</title>
+
     <!-- Stylesheet -->
     <link rel="stylesheet" href="./css/style.css">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/43cdcf7b71.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <!-- header start -->
@@ -14,10 +17,11 @@
 
     </header>
     <!-- header end -->
-    <main>
+    <main class="flex">
         <!-- top players & top blogs -->
-        <section>
+        <section class="container">
             <div class="top-players">
+                <h2>Top Players</h2>
                 <div class="players">
                     <div class="player">
                         <img class="player-image" src="./images/players/player-1.png" alt="">
@@ -45,7 +49,122 @@
                     </div>
                 </div>
             </div>
-            <div class="top-blogs"></div>
+            <hr>
+            <div class="top-blogs">
+                <h2>Top Blogs</h2>
+                <div class="blogs">
+                    <div class="blog">
+                        <div class="thumbnail">
+                            <img src="./images/blogs/blog-1.png" alt="">
+                        </div>
+                        <div class="blog-details">
+                            <h3 class="blog-title">13 of My Favorite UI/UX Goodies</h3>
+                            <p class="author-name">By <a href="#">Danny Sapio</a></p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <div class="thumbnail">
+                            <img src="./images/blogs/blog-2.png" alt="">
+                        </div>
+                        <div class="blog-details">
+                            <h3 class="blog-title">UI cheat sheet: list vs grids</h3>
+                            <p class="author-name">By <a href="#">Tess Gadd</a></p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <div class="thumbnail">
+                            <img src="./images/blogs/blog-3.png" alt="">
+                        </div>
+                        <div class="blog-details">
+                            <h3 class="blog-title">7 typography tips for interface design</h3>
+                            <p class="author-name">By <a href="#">Jeremiah Lam</a></p>
+                        </div>
+                    </div>
+                    <div class="blog">
+                        <div class="thumbnail">
+                            <img src="./images/blogs/blog-4.png" alt="">
+                        </div>
+                        <div class="blog-details">
+                            <h3 class="blog-title">Your logo is copied</h3>
+                            <p class="author-name">By <a href="#">Ferdinand Vogler</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="latest-course container">
+            <h2>Latest Courses</h2>
+            <div class="courses">
+                <div class="course">
+                    <div class="course-banner">
+                        <img src="./images/courses/course-1.png" alt="">
+                    </div>
+                    <div class="course-desc">
+                        <h3>React - The Complete Guide 2020</h3>
+                        <p class="instructor">Reed Krakoff.</p>
+                    </div>
+                    <div class="course-info">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>4.5</span>
+                        </div>
+                        <div class="duration">
+                            <i class="far fa-clock"></i>
+                            <span>01:30 hr</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-banner">
+                        <img src="./images/courses/course-2.png" alt="">
+                    </div>
+                    <div class="course-desc">
+                        <h3>Powerpoint 2020 Master Powerpoint Course</h3>
+                        <p class="instructor">Walter Scott.</p>
+                    </div>
+                    <div class="course-info">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>4.3</span>
+                        </div>
+                        <div class="duration">
+                            <i class="far fa-clock"></i>
+                            <span>01:20 hr</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="course">
+                    <div class="course-banner">
+                        <img src="./images/courses/course-3.png" alt="">
+                    </div>
+                    <div class="course-desc">
+                        <h3>The Complete JavaScript Course 2020</h3>
+                        <p class="instructor">Reed Krakoff.</p>
+                    </div>
+                    <div class="course-info">
+                        <div class="rating">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <span>4.5</span>
+                        </div>
+                        <div class="duration">
+                            <i class="far fa-clock"></i>
+                            <span>01:30 hr</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 </body>
